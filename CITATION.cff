@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Cattle Skin Micro-CT Segmentation Pipeline"
+abstract: >-
+  A reproducible pipeline for segmenting hair follicles, sweat glands, and
+  blood vessels in bovine skin biopsies scanned by micro-computed tomography.
+  The pipeline combines threshold-based manual segmentation with 2.5D U-Net
+  deep-learning models in Dragonfly and consolidates per-structure exports
+  into a single master measurements spreadsheet. Distributed as protocols,
+  conversion utilities, and analysis scripts; no experimental dataset is
+  shipped.
+authors:
+  - alias: kevinagre
+version: 1.0.0
+date-released: 2026-04-22
+repository-code: "https://github.com/kevinagre/cattle-skin-dl-segmentation"
+license: MIT
+type: software
+keywords:
+  - micro-CT
+  - segmentation
+  - deep learning
+  - U-Net
+  - bovine
+  - skin
+  - hair follicle
+  - sweat gland
+  - Dragonfly
