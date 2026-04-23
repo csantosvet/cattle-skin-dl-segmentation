@@ -12,6 +12,21 @@ analysis scripts, and Dragonfly tutorial notes needed to reproduce the
 workflow on your own data. No experimental dataset is shipped; see
 [`data/README.md`](data/README.md).
 
+## Preview
+
+A short volumetric fly-through of a DL-segmented sweat-gland network in a
+bovine skin biopsy (sample 22-10), rendered in Dragonfly:
+
+<video
+  src="https://github.com/csantosvet/cattle-skin-dl-segmentation/raw/main/docs/media/sweatgland_preview.mp4"
+  controls
+  muted
+  playsinline
+  width="720">
+  Your browser does not support embedded video playback.
+  <a href="docs/media/sweatgland_preview.mp4">Download the preview video</a>.
+</video>
+
 ## Quick start
 
 1. **Clone the repository** and create a Python environment (Python ≥ 3.10).
