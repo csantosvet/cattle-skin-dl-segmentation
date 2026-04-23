@@ -17,15 +17,7 @@ workflow on your own data. No experimental dataset is shipped; see
 A short volumetric fly-through of a DL-segmented sweat-gland network in a
 bovine skin biopsy (sample 22-10), rendered in Dragonfly:
 
-<video
-  src="https://github.com/csantosvet/cattle-skin-dl-segmentation/raw/main/docs/media/sweatgland_preview.mp4"
-  controls
-  muted
-  playsinline
-  width="720">
-  Your browser does not support embedded video playback.
-  <a href="docs/media/sweatgland_preview.mp4">Download the preview video</a>.
-</video>
+![Sweat-gland network fly-through (DL-segmented, Dragonfly 3D render)](docs/media/sweatgland_preview.gif)
 
 ## Quick start
 
